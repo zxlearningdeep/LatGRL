@@ -2,9 +2,9 @@ import argparse
 import torch
 import sys
 
-# argv = sys.argv
-# dataset = argv[1]
-dataset = 'acm'
+argv = sys.argv
+dataset = argv[1]
+# dataset = 'acm'
 
 
 def acm_params():
