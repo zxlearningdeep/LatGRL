@@ -225,7 +225,6 @@ def load_data(dataset, ratio, type_num, flag=None):
     elif dataset == 'yelp':
         data = load_yelp(ratio)
     elif dataset == 'mag':
-        # data = load_mag_scalable(flag)
         data = load_mag(flag)
 
     return data
