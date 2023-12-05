@@ -72,15 +72,11 @@ x_norm = torch.norm(feat_p, dim=-1, keepdim=True)
 zero_indices = torch.nonzero(x_norm.flatten() == 0)
 x_norm[zero_indices] += EPS
 
-
-label = th.load(path + 'label.pt').numpy()
-
 pap = th.load(path + 'pap.pt').coalesce()
 pp = th.load(path + 'pp.pt').coalesce()
 pp = (pp + pp.t()) / 2
 pp = pp.coalesce()
 adjs = [pap, pp]
-
 
 # ones values:
 adjs_new = []
@@ -131,7 +127,6 @@ x_norm = x_norm.cuda()
 # rw = rw.cuda()
 anchor_index = anchor_index.cuda()
 rw_anchor = rw_anchor.cuda()
-
 
 adjs_l_index = [[],[]]
 adjs_h_index = [[],[]]
