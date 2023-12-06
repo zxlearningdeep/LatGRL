@@ -102,7 +102,7 @@ def mask_edges(adjs, sub_num, adj_mask):
         edges = adj_tuple[0]  
         all_edge_idx = list(range(edges.shape[0]))
         np.random.shuffle(edges)
-        mask_edges_num = int(adj_mask*len(edges))   # len(edges)=减去自环的边数
+        mask_edges_num = int(adj_mask*len(edges))
         rest_edges = edges[mask_edges_num:]
         data = np.ones(rest_edges.shape[0])
         adj = sp.coo_matrix((data, (rest_edges[:, 0], rest_edges[:, 1])), shape=adjs[i].shape)
