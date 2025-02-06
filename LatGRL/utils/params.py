@@ -2,8 +2,11 @@ import argparse
 import torch
 import sys
 
-argv = sys.argv
-dataset = argv[1]
+parser = argparse.ArgumentParser()
+parser.add_argument('-dataset', type=str, required=True,
+                    choices=['acm', 'yelp', 'dblp', 'imdb','mag'])
+args, unknown = parser.parse_known_args()
+dataset = args.dataset
 # dataset = 'acm'
 
 
@@ -380,6 +383,8 @@ def set_params():
         args = yelp_params()
     elif dataset == 'imdb':
         args = imdb_params()
+    else:
+        raise ValueError(f"Unsupported dataset: {dataset}")
     return args
 
 def set_params_large():
@@ -393,6 +398,8 @@ def set_params_large():
         args = yelp_sampler_params()
     elif dataset == 'imdb':
         args = imdb_sampler_params()
+    else:
+        raise ValueError(f"Unsupported dataset: {dataset}")
     return args
 
 
