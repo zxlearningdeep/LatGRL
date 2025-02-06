@@ -41,7 +41,7 @@ This code requires the following:
 
 **DBLP:**
 
-> LatGRL
+> LatGRL:
 
 `python main.py -dataset dblp`
 
@@ -51,7 +51,7 @@ This code requires the following:
 
 **Yelp:**
 
-> LatGRL
+> LatGRL:
 
 `python main.py -dataset yelp`
 
@@ -61,7 +61,7 @@ This code requires the following:
 
 **IMDB:**
 
-> LatGRL
+> LatGRL:
 
 `python main.py -dataset imdb`
 
