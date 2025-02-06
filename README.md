@@ -25,27 +25,53 @@ This code requires the following:
 * Scipy==1.10.1
 * Scikit-learn==1.2.1
 
-# Training
+# Running
 
 **For different datasets, please run the following code:**
 
 **ACM:**
 
+> LatGRL:
+
 `python main.py -dataset acm`
+
+> LatGRL-S:
+
+`python main_sampler.py -dataset acm`
 
 **DBLP:**
 
+> LatGRL
+
 `python main.py -dataset dblp`
+
+> LatGRL-S:
+
+`python main_sampler.py -dataset dblp`
 
 **Yelp:**
 
+> LatGRL
+
 `python main.py -dataset yelp`
+
+> LatGRL-S:
+
+`python main_sampler.py -dataset yelp`
 
 **IMDB:**
 
+> LatGRL
+
 `python main.py -dataset imdb`
 
+> LatGRL-S:
+
+`python main_sampler.py -dataset imdb`
+
 **Ogbn-mag:**
+
+> LatGRL-S:
 
 `python main_sampler.py -dataset mag`
 
