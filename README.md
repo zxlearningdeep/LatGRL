@@ -16,16 +16,16 @@ This code requires the following:
 
 * Python==3.9.16
 * PyTorch==1.13.1
-* DGL(cuda)==0.9.1
 * Numpy==1.24.2
 * Scipy==1.10.1
 * Scikit-learn==1.2.1
 * Munkres==1.1.4
-* kmeans-pytorch==0.3 
 
 # Training
 
-`python main.py
+`python main.py -dataset acm`
+Here, "acm" can be replaced by "dblp", "yelp","imdb".
+
 
 # BibTeX
 
