@@ -4,7 +4,7 @@ This is the source code of "When Heterophily Meets Heterogeneous Graphs: Latent 
 
 Paper Link: [https://arxiv.org/abs/2409.00687](https://arxiv.org/abs/2409.00687)
 
-We are the first to explore the phenomenon of **node-level heterophily in heterogeneous graphs** and attempt to address this issue in unsupervised heterogeneous graph learning. The marginal and multi-relational joint distributions of node-level homophily ratios across different meta-paths in real-world heterogeneous graphs are shown below:
+To our knowledge, we are the first to explore the phenomenon of **node-level heterophily in heterogeneous graphs** and attempt to address this issue in unsupervised heterogeneous graph learning. The marginal and multi-relational joint distributions of node-level homophily ratios across different meta-paths in real-world heterogeneous graphs are shown below:
 
 ![Heterophily Fig](https://github.com/zxlearningdeep/LatGRL/blob/main/figure.png)
 
