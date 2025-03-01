@@ -80,12 +80,13 @@ This code requires the following:
 # BibTeX
 
 ```
-@article{shen2024latgrl,
-  title={When Heterophily Meets Heterogeneous Graphs: Latent Graphs Guided Unsupervised Representation Learning},
+@article{10905047,
   author={Shen, Zhixiang and Kang, Zhao},
-  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={When Heterophily Meets Heterogeneous Graphs: Latent Graphs Guided Unsupervised Representation Learning}, 
   year={2025},
-  publisher={IEEE}
-}
+  pages={1-14},
+  publisher={IEEE},
+  doi={10.1109/TNNLS.2025.3540063}}
 
 ```
