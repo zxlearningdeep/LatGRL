@@ -80,13 +80,14 @@ This code requires the following:
 # BibTeX
 
 ```
-@article{10905047,
+@ARTICLE{10905047,
   author={Shen, Zhixiang and Kang, Zhao},
   journal={IEEE Transactions on Neural Networks and Learning Systems}, 
   title={When Heterophily Meets Heterogeneous Graphs: Latent Graphs Guided Unsupervised Representation Learning}, 
   year={2025},
-  pages={1-14},
-  publisher={IEEE},
+  volume={36},
+  number={6},
+  pages={10283-10296},
   doi={10.1109/TNNLS.2025.3540063}}
 
 ```
